@@ -2,7 +2,7 @@
 
 ## Pro tip
 
-Don't use the new version yet as it won't compile on Windows. 
+Don't use the new version yet as it won't compile on Windows. (Hint: This version will.)
 
 ## How to install
 
