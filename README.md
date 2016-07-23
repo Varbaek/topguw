@@ -1,38 +1,20 @@
 # News
 
-## Topguw v2 development is being started, code and more informations available here : https://github.com/bastienjalbert/topguw2
+## Pro tip
 
-I'm working on an API that works with GR-GSM (not airprobe anymore), Topguw v1 is really dirty, this API will easily perform gsm analysis in Java and make application creation possible for anybody on the gsm protocol. If you want to help me : contact me, you can find sources here https://github.com/bastienjalbert/topguw_api/ .
-
-# Topguw
-
-I had to change the repository because of some local problems.. I'm sorry to those who forked and/or stared my project. This will be the last for Topguw.
-Sorry again for the inconvenience.
-
-### About
-Topguw is a small piece of software that I made to help people who want to analyse and then crack GSM. 
-Topguw works with airprobe and kalibrate-rtl. 
-It takes some steps of the know-plaintext attack vector to GSM automatically (Karsten Nohl).
-
-The actual version is currently in beta, bugs may occur but the software will work with good input data.
-V0.1
+Don't use the new version yet as it won't compile on Windows. 
 
 ## How to install
-1. Dependencies 
-  -  First, you have to install airprobe and gsmframecoder, (airprobe depends on gnu-radio **3.6**, so if you use Kali 2 for example you have 2 solutions -> downgrade to kali 1 or use the zmiana patch).
-  -  You should install kalibrate-rtl too (Topguw uses kal command to scan GSM tower).
-  -  Not really a dependencies, just to tell you that I use Oracle JDK 8 to run Topguw.
 
-2. Run
-  -  From a shell, you can start the jar with "java -jar Topguw.jar" 
-  -  Use Netbean to import the project and run from Netbean, main class is Principal.java
+1. Download Netbeans Java. (http://www.oracle.com/technetwork/java/javase/downloads/index.html, Search for "JDK 8 with NetBeans")
+2. Install Netbeans with Java on the machine where you are going to topguw. (Don't compile on 64-bit windows and then attemp to use it on 32-bit kali linux, it won't work.)
+3. Download this project as a ZIP file.
+4. Import this project into Netbeans
+5. Compile
+6. Check the debug output when it's done, this will tell where the JAR file is. Alternatively, you can also run this project directly from the IDE, but who wants to compile every time you want to run a Java program.
 
-## How to use
-1. First step
-2. Second step
-3. Third step
 
-## Disclaimer
+## License by original author
 
 Copyright (c) 2015, Bastien Enjalbert All rights reserved.
 
@@ -59,5 +41,4 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those
 of the authors and should not be interpreted as representing official policies,
 either expressed or implied, of the FreeBSD Project.
-# projetsitefilm
 
