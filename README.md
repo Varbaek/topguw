@@ -1,4 +1,4 @@
-# News
+#README
 
 ## Pro tip
 
