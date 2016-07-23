@@ -7,10 +7,10 @@ Don't use the new version yet as it won't compile on Windows. (Hint: This versio
 ## How to install
 
 1. Download Netbeans Java. (http://www.oracle.com/technetwork/java/javase/downloads/index.html, Search for "JDK 8 with NetBeans")
-2. Install Netbeans with Java on the machine where you are going to topguw. (Don't compile on 64-bit windows and then attemp to use it on 32-bit kali linux, it won't work.)
+2. Install Netbeans with Java on the machine where you are going to topguw. (Don't compile on 64-bit windows and then attemp to use it on 32-bit kali linux, it probably won't work.)
 3. Download this project as a ZIP file.
 4. Import this project into Netbeans
-5. Compile
+5. Compile/Buikd, or alternatively just Run and skip Step 6
 6. Check the debug output when it's done, this will tell where the JAR file is. Alternatively, you can also run this project directly from the IDE, but who wants to compile every time you want to run a Java program.
 
 
