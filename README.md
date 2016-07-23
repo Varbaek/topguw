@@ -2,7 +2,9 @@
 
 ## Pro tip
 
-Don't use the new version yet as it won't compile on Windows. (Hint: This version will.)
+If you want to use the new version (2.0 Beta), then you need to:
+1. Get the topguw API, compile it on the machine that you're going to use
+2. Now you can compile the new version. For instructions on how to compile Java projects from github, see below.
 
 ## How to install
 
