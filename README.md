@@ -3,8 +3,10 @@
 ## Pro tip
 
 If you want to use the new version (2.0 Beta), then you need to:
+
 1. Get the topguw API, compile it on the machine that you're going to use
 2. Now you can compile the new version. For instructions on how to compile Java projects from github, see below.
+3. Realise that version 2 isn't finished.
 
 ## How to install
 
